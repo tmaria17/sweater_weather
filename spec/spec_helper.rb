@@ -1,4 +1,7 @@
 require 'simplecov'
+require 'webmock/rspec'
+WebMock.allow_net_connect!
+
 
 SimpleCov.start
 
