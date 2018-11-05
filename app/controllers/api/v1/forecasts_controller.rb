@@ -1,8 +1,9 @@
 class Api::V1::ForecastsController < ApplicationController
   def show
-    coordinate_service = CoordinateService.new(params[:location])
-    weather_service = WeatherService.new(coordinate_service.get_coordinates)
+    # coordinate_service = CoordinateService.new(params[:location])
+    # weather_service = WeatherService.new(coordinate_service.get_coordinates)
+    forecast = ForecastFacade.new(params[:location])
+    render json: forecast.weather
 
-    render json: weather_service.get_weather
   end
 end

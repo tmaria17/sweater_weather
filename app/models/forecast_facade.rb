@@ -3,6 +3,9 @@ class ForecastFacade
     @location = location
   end
 
+  def weather
+    weather_service.get_weather
+  end
   def current_weather
     weather_service.get_weather[:currently]
   end
