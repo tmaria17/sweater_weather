@@ -1,0 +1,96 @@
+{
+    "results": [
+        {
+            "address_components": [
+                {
+                    "long_name": "10000",
+                    "short_name": "10000",
+                    "types": [
+                        "street_number"
+                    ]
+                },
+                {
+                    "long_name": "East Alameda Avenue",
+                    "short_name": "E Alameda Ave",
+                    "types": [
+                        "route"
+                    ]
+                },
+                {
+                    "long_name": "Windsor",
+                    "short_name": "Windsor",
+                    "types": [
+                        "neighborhood",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Denver",
+                    "short_name": "Denver",
+                    "types": [
+                        "locality",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Denver County",
+                    "short_name": "Denver County",
+                    "types": [
+                        "administrative_area_level_2",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Colorado",
+                    "short_name": "CO",
+                    "types": [
+                        "administrative_area_level_1",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "United States",
+                    "short_name": "US",
+                    "types": [
+                        "country",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "80247",
+                    "short_name": "80247",
+                    "types": [
+                        "postal_code"
+                    ]
+                }
+            ],
+            "formatted_address": "10000 E Alameda Ave, Denver, CO 80247, USA",
+            "geometry": {
+                "location": {
+                    "lat": 39.708285,
+                    "lng": -104.8714487
+                },
+                "location_type": "ROOFTOP",
+                "viewport": {
+                    "northeast": {
+                        "lat": 39.7096339802915,
+                        "lng": -104.8700997197085
+                    },
+                    "southwest": {
+                        "lat": 39.7069360197085,
+                        "lng": -104.8727976802915
+                    }
+                }
+            },
+            "place_id": "ChIJpetkKR99bIcRRg7QhMvovIg",
+            "plus_code": {
+                "compound_code": "P45H+8C Denver, Colorado, United States",
+                "global_code": "85FQP45H+8C"
+            },
+            "types": [
+                "street_address"
+            ]
+        }
+    ],
+    "status": "OK"
+}
