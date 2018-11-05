@@ -1,24 +1,50 @@
-# README
+# Sweater Weather
+Final solo project for Module 3 of Turing's Back-End Engineering program
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Prerequisites/ Dependencies
+ This project assumes you have installed: 
+ * Ruby 2.4.1
+ * Rails 5.2.1
+ * Faraday
+ * Figaro
+ * Byebug
+ * Capybara
+ * Faraday
+ * Figaro
+ * Launchy
+ * Pry
+ * Shoulda-Matchers
+ * SimpleCov
+ * VCR
+ * Webmock
 
-Things you may want to cover:
+## Installing
 
-* Ruby version
+1. Clone down the repo:
 
-* System dependencies
+` git clone git@github.com:tmaria17/sweater_weather.git`
 
-* Configuration
+2. Run:
 
-* Database creation
+`bundle install`
 
-* Database initialization
+`bundle update`
 
-* How to run the test suite
+3. Setup the database:
 
-* Services (job queues, cache servers, search engines, etc.)
+ `rake db:setup`
 
-* Deployment instructions
 
-* ...
+
+## Running the tests
+To run the full testing suite, run `rspec` from the command line.
+
+
+
+
+## Contributors
+
+[Maria Torres](https://github.com/tmaria17)
+
+
+
