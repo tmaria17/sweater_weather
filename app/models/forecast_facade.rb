@@ -6,6 +6,13 @@ class ForecastFacade
   def weather
     weather_service.get_weather
   end
+
+  def daily_summaries
+    weather[:daily][:data].map do |stuff|
+      stuff[:summary]
+    end
+  end
+  
   def current_weather
     weather_service.get_weather[:currently]
   end
