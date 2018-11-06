@@ -3,7 +3,12 @@ require 'rails_helper'
 describe 'Get location' do
   it 'returns coordinates' do
     get '/api/v1/forecast?location=denver,co'
+
     expect(response.status).to eq(200)
+
+    forecast_data = JSON.parse(response.body, symbolize_names: true)
+    # binding.pry
+    # expect(forecast_data.current_summary).to eq("Mostly Cloudy")
   end
   it 'returns weather' do
     json_response = File.open("./fixtures/forecast_response.json")
